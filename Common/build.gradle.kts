@@ -28,6 +28,8 @@ dependencies {
     compileOnly(libs.jei.api)
     compileOnly(libs.resourcefulconfig)
     compileOnly(libs.sparkweave)
+    interfaceInjectionData(libs.sparkweave)
+    accessTransformers(libs.sparkweave)
 }
 
 neoForge {
