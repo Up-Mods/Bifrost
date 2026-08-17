@@ -137,6 +137,7 @@ jobs:
         with:
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           version: ${{ env.TAG }}+${{ matrix.loader }}
+          version-type: alpha # TODO remove once out of alpha stage
           files: |
             ${{ matrix.loader }}/build/libs/!(*-@(sources|javadoc|testmod)).jar
             ${{ matrix.loader }}/build/libs/*-@(sources|javadoc).jar
@@ -147,6 +148,7 @@ jobs:
         with:
           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
           version: ${{ env.TAG }}+${{ matrix.loader }}
+          version-type: beta # TODO remove once out of alpha stage
           files: |
             ${{ matrix.loader }}/build/libs/!(*-@(sources|javadoc|testmod)).jar
             ${{ matrix.loader }}/build/libs/*-@(sources|javadoc).jar
