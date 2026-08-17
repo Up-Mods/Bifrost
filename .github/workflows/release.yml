@@ -8,9 +8,10 @@ env:
   JAVA_VERSION: 25
   TAG: ${{ github.ref_name }}
   BUILD_NUMBER: ${{ github.run_number }}
-  MAVEN_UPLOAD_URL: ${{ secrets.MAVEN_UPLOAD_URL }}
-  MAVEN_UPLOAD_USERNAME: ${{ secrets.MAVEN_UPLOAD_USERNAME }}
-  MAVEN_UPLOAD_PASSWORD: ${{ secrets.MAVEN_UPLOAD_PASSWORD }}
+  # FIXME re-enable
+#  MAVEN_UPLOAD_URL: ${{ secrets.MAVEN_UPLOAD_URL }}
+#  MAVEN_UPLOAD_USERNAME: ${{ secrets.MAVEN_UPLOAD_USERNAME }}
+#  MAVEN_UPLOAD_PASSWORD: ${{ secrets.MAVEN_UPLOAD_PASSWORD }}
 
 jobs:
   build:
