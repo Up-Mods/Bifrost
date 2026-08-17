@@ -1,0 +1,11 @@
+{
+  "type": "bifrost:bifrost",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "bifrost:bifrost_default"
+    },
+    "settings": "bifrost:bifrost"
+  }
+}

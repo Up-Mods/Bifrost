@@ -1,5 +1,8 @@
 {
   "bifrost.config.links.discord": "Discord",
   "bifrost.config.links.website": "Website",
-  "bifrost.title": "Example Mod"
+  "bifrost.title": "Enter the Bifrost",
+  "biome.bifrost.bifrost_default": "Bifrost Default",
+  "block.bifrost.frozen_core": "Frozen Core",
+  "itemGroup.bifrost.items": "Enter the Bifrost"
 }

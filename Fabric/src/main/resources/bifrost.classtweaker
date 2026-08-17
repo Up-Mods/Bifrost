@@ -1,1 +1,3 @@
 classTweaker v2 official
+
+accessible method net/minecraft/world/level/levelgen/NoiseRouterData simpleRouter (Lnet/minecraft/world/level/levelgen/DensityFunction;)Lnet/minecraft/world/level/levelgen/NoiseRouter;
